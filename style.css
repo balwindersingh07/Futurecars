@@ -1,0 +1,39 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+expo-img{
+  width: 100%;
+  height: auto;
+}
+.card1{
+background-image: url(./img/aurora_adelade.jpg);
+background-size:contain;
+color: blanchedalmond;
+}
+
+.card2{
+  background-image: url(./img/1891_Panhard_et_Lavassor.jpg);
+  background-size:contain;
+  color: blanchedalmond;
+}
+
+.card3{
+  background-image: url(./img/Rev_bike_01.jpg);
+  background-size:contain;
+  color: blanchedalmond;
+}
